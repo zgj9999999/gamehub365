@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub365 - Monster Survivors Game</title>
+    <link rel="canonical" href="https://gamehub365.net" />
+    <style>
+        /* 经典色系 */
+        :root {
+            --primary-color: #2a6496;
+            --secondary-color: #4a90e2;
+            --accent-color: #f39c12;
+            --background-color: #f5f5f5;
+            --text-color: #333333;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+        
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .game-container {
+            width: 100%;
+            height: 0;
+            padding-bottom: 62.5%; /* 游戏窗口比例 */
+            position: relative;
+            margin: 2rem 0;
+            border: 3px solid var(--secondary-color);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+        }
+        
+        .game-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .game-info {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            color: white;
+            margin: 0;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        
+        h2 {
+            color: var(--secondary-color);
+            font-size: 1.8rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-top: 0;
+        }
+        
+        p {
+            font-size: 1.1rem;
+        }
+        
+        .header-subtitle {
+            font-size: 1.2rem;
+            margin-top: 0.5rem;
+            opacity: 0.9;
+        }
+        
+        .controls {
+            background-color: rgba(74, 144, 226, 0.1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-top: 1.5rem;
+        }
+        
+        .controls h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+        
+        .feature-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        
+        .feature-item {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-left: 4px solid var(--accent-color);
+        }
+        
+        .feature-item h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+        
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 3rem;
+        }
+        
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            main {
+                padding: 1rem;
+            }
+            
+            .game-container {
+                padding-bottom: 75%; /* 移动端调整比例 */
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .feature-list {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>GameHub365</h1>
+        <p class="header-subtitle">Your Ultimate Monster Survivors Gaming Experience</p>
+    </header>
+    
+    <main>
+        <section class="game-info">
+            <h2>Monster Survivors</h2>
+            <p>Battle against endless waves of monsters in this exciting survival game. Use your skills and strategy to defeat enemies and survive as long as possible in this thrilling adventure!</p>
+        </section>
+        
+        <div class="game-container">
+            <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" allow="fullscreen" allowfullscreen></iframe>
+        </div>
+        
+        <section class="game-info">
+            <h2>Game Description</h2>
+            <p>Monster Survivors is an action-packed survival game where you face increasingly difficult waves of monsters. Collect power-ups, upgrade your character, and set new high scores as you fight to survive in this challenging environment.</p>
+            
+            <div class="controls">
+                <h3>How to Play</h3>
+                <p>Use WASD keys or arrow keys to move your character. Your character will automatically attack nearby monsters. Collect experience orbs dropped by defeated monsters to level up and choose new abilities. Survive as long as possible and defeat as many monsters as you can!</p>
+            </div>
+            
+            <h2>Game Features</h2>
+            <div class="feature-list">
+                <div class="feature-item">
+                    <h3>Endless Gameplay</h3>
+                    <p>Face waves of monsters that become increasingly difficult as time passes. How long can you survive?</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Character Upgrades</h3>
+                    <p>Level up your character and choose from a variety of powerful abilities and upgrades.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Unique Monsters</h3>
+                    <p>Battle against different types of monsters, each with their own attack patterns and behaviors.</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Power-ups</h3>
+                    <p>Collect special items throughout the game to gain temporary advantages against the monster hordes.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 GameHub365.net - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
